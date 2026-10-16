@@ -49,7 +49,7 @@ Built by [theluckystrike](https://github.com/theluckystrike). MIT. Support: supp
 
 ## Install
 
-Claude Desktop: download [duplicate-invoice-check.mcpb v0.22.7](https://github.com/theluckystrike/mcp-servers/releases/download/v0.22.7/duplicate-invoice-check.mcpb) and open it. SHA-256: `a70a2548ed418122aee80bfe7fa66de0c1927c0d4f1e3b6ed24b13d8bddc206d`. Other clients can use the source instructions below.
+Claude Desktop: download [duplicate-invoice-check.mcpb v0.22.8](https://github.com/theluckystrike/mcp-servers/releases/download/v0.22.8/duplicate-invoice-check.mcpb) and open it. SHA-256: `181379eb6dcff3d90b55e080dd9c180f6c96802e991872865a6b0ce422b3aaea`. Other clients can use the source instructions below.
 
 Requires Node.js 18 or newer and an MCP client. No API key or account is needed for free use. The npm package is not published: build the source checkout, then use an absolute local path.
 
