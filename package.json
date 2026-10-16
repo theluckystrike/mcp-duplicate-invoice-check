@@ -1,0 +1,47 @@
+{
+  "name": "@theluckystrike/mcp-duplicate-invoice-check",
+  "version": "0.22.7",
+  "description": "Review explainable duplicate supplier invoice candidates in a supplied local batch.",
+  "type": "module",
+  "bin": {
+    "mcp-duplicate-invoice-check": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "server.json"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node -e \"import('node:fs').then(f=>f.chmodSync('dist/index.js',0o755))\"",
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "duplicate-invoice",
+    "accounts-payable",
+    "supplier-invoice",
+    "local"
+  ],
+  "license": "MIT",
+  "author": "theluckystrike",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theluckystrike/mcp-servers",
+    "directory": "servers/duplicate-invoice-check"
+  },
+  "homepage": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/duplicate-invoice-check",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@theluckystrike/mcp-license": "file:vendor/mcp-license",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}

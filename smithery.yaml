@@ -1,0 +1,14 @@
+name: mcp-duplicate-invoice-check
+target: local
+runtime: typescript
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      licenseKey:
+        type: string
+        title: License key
+        description: Optional offline Pro license key; removes the three-saved-report cap.
+  exampleConfig:
+    licenseKey: ""
