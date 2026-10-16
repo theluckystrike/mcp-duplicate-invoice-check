@@ -6,6 +6,8 @@
 
 Works with Claude Desktop, Claude Code, Cursor and any Model Context Protocol client. Runs on your own machine: this one has no hosted endpoint, so install it from the bundle or from source.
 
+Product page: <https://mcp.zovo.one/s/duplicate-invoice-check> — capabilities, free limits and supported installation paths.
+
 [Try the editable duplicate-invoice review in your browser](https://mcp.zovo.one/guides/check-duplicate-supplier-invoice-references-in-claude#duplicate-demo) before installing. Synthetic fields are checked locally in your browser without uploads. Candidates require review; they are not payment decisions.
 
 ## Install
