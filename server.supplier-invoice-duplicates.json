@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.theluckystrike/supplier-invoice-duplicates",
   "description": "Review duplicate supplier invoice candidates with grouped local evidence; no payment approval.",
-  "version": "0.22.7",
+  "version": "0.22.8",
   "repository": {
     "url": "https://github.com/theluckystrike/mcp-servers",
     "source": "github",
@@ -11,8 +11,8 @@
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/theluckystrike/mcp-servers/releases/download/v0.22.7/duplicate-invoice-check.mcpb",
-      "version": "0.22.7",
+      "identifier": "https://github.com/theluckystrike/mcp-servers/releases/download/v0.22.8/duplicate-invoice-check.mcpb",
+      "version": "0.22.8",
       "transport": {
         "type": "stdio"
       },
@@ -24,7 +24,7 @@
           "isSecret": true
         }
       ],
-      "fileSha256": "a70a2548ed418122aee80bfe7fa66de0c1927c0d4f1e3b6ed24b13d8bddc206d"
+      "fileSha256": "181379eb6dcff3d90b55e080dd9c180f6c96802e991872865a6b0ce422b3aaea"
     }
   ],
   "websiteUrl": "https://mcp.zovo.one/s/duplicate-invoice-check?utm_source=mcp-registry&utm_medium=registry&utm_campaign=duplicate-invoice-check"
