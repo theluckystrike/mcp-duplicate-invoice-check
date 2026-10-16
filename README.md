@@ -2,7 +2,7 @@
 
 <!-- mirror-seo:start -->
 
-**MCP server for duplicate supplier invoice review: supplied-batch exact and normalized reference evidence with free CSV reports.** Review duplicate supplier invoice candidates in supplied local history.
+**MCP server for duplicate supplier invoice and vendor bills review: supplied-batch exact and normalized references with free CSV evidence.** Review duplicate supplier invoice candidates in supplied local history.
 
 Works with Claude Desktop, Claude Code, Cursor and any Model Context Protocol client. Runs on your own machine: this one has no hosted endpoint, so install it from the bundle or from source.
 
