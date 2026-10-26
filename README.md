@@ -6,7 +6,7 @@
 
 Works with Claude Desktop, Claude Code, Cursor and any Model Context Protocol client. Runs on your own machine: this one has no hosted endpoint, so install it from the bundle or from source.
 
-Product page: <https://mcp.zovo.one/s/duplicate-invoice-check> — capabilities, free limits and supported installation paths.
+Product page: <https://mcp.zovo.one/s/duplicate-invoice-check> - capabilities, free limits and supported installation paths.
 
 [Try the editable duplicate-invoice review in your browser](https://mcp.zovo.one/guides/check-duplicate-supplier-invoice-references-in-claude#duplicate-demo) before installing. Synthetic fields are checked locally in your browser without uploads. Candidates require review; they are not payment decisions.
 
@@ -46,6 +46,17 @@ Read-only mirror of [mcp-servers/servers/duplicate-invoice-check](https://github
 Review a supplied batch of supplier invoices for repeated invoice numbers, conservative formatting variations, or identical amounts and invoice dates. This local MCP server returns complete grouped evidence and the exact reason each record needs review. Distinct legitimate invoices can share an amount and date. Candidates are not confirmed duplicates, fraud scores, recoverable money or payment decisions. It does not connect to an ERP, read PDFs, use OCR, or retrieve missing history.
 
 Built by [theluckystrike](https://github.com/theluckystrike). MIT. Support: support@zovo.one.
+
+## Try it before installing
+
+[Run the free duplicate-invoice example in your browser](https://mcp.zovo.one/guides/check-duplicate-supplier-invoice-references-in-claude#duplicate-demo). Edit the synthetic invoice records to see candidate groups and their reasons. The example runs locally in your browser without an account or uploads. [Product details and installation options](https://mcp.zovo.one/s/duplicate-invoice-check).
+
+| Your review task | Start here |
+| --- | --- |
+| Find repeated invoice references across a supplied invoice-history batch | This server: `duplicate_invoice_check`. Candidates require review and are not confirmed duplicate payments. |
+| Compare one supplier invoice with its PO, accepted receipts and prior billed quantities | [Three-way supplier invoice matching](https://github.com/theluckystrike/mcp-three-way-match), with a [free browser example](https://mcp.zovo.one/guides/match-supplier-invoice-purchase-order-delivery-note-in-claude#matcher-demo). |
+
+Both servers include their full diagnostics and CSV evidence for free. Pro removes the limit of three saved reports; the $39 bundle covers both. Neither tool approves payment or retrieves missing accounting history.
 
 ## Install
 
